@@ -216,7 +216,7 @@ article p {
     margin: 0 0 15px 0;
     }
 
-figure#before-after {
+figure {
     border: 1px solid #bbb;
     float: left;
     margin-bottom: 10px;
@@ -229,36 +229,35 @@ figure#before-after p {
     margin: 0;
     }
 
-figure#before-after span {
-    font-size: 14px;
-    font-style: italic;
-    margin-right: 5px;
-    }
-
 figure#before-after img {
     float: left;
     margin-bottom: 5px;
     width: 100%;
     }
 
-figure#before-after figcaption {
+figcaption {
     font-family: serif;
+    font-size: 14px;
+    font-style: italic;
     padding: 10px;
     }
 
-figure#eyes {
-    border: 1px solid #bbb;
-    float: left;
-    margin-bottom: 10px;
-    padding: 5px;
-    }
-
 img#pipeline {
+    float: left;
     height: 240px;
+    margin-bottom: 5px;
     }
 
 img#oil-fire {
+    float: right;
     height: 240px;
+    margin-bottom: 5px;
+    }
+
+img.separator {
+    margin-top: 10px;
+    margin-left: 47px;
+    width: 250px;
     }
 
 aside {
