@@ -41,11 +41,10 @@ header img#leaf-two {
     }
 
 header img#leaf-three {
-    height: 200px;
+    height: 220px;
     position: absolute;
-      top: -20px;
-      left: 0px;
-    transform: rotate(-30deg);
+      top: -35px;
+      left: 20px;
     }
 
 div#heading-wrapper {
@@ -176,7 +175,6 @@ main {
 
 hr {
     background-color: #63a033;
-    border-bottom: 1px solid #EC6B40;
     color: #63a033;
     height: 3px;
     margin: 20px auto;
@@ -209,18 +207,33 @@ article h4 span#author {
     font-style: italic;
     }
 
+div#oppose {
+    background-color: darkred;
+    box-shadow: 2px 3px 2px #888;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    }
+
+div#oppose:hover {
+    background-color: green;
+    background-color: #63a033;
+    color: #ddd;
+    cursor: pointer;
+    }
+
+div#oppose h6 a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    }
+
 article p {
-    float: left;
     font-size: 16px;
     line-height: 24px;
     margin: 0 0 15px 0;
-    }
-
-figure {
-    border: 1px solid #bbb;
-    float: left;
-    margin-bottom: 10px;
-    padding: 5px;
     }
 
 figure#before-after p {
@@ -235,7 +248,28 @@ figure#before-after img {
     width: 100%;
     }
 
+figure#steyer {
+    float: left;
+    }
+
+figure#steyer img {
+    float: left;
+    height: 180px;
+    }
+
+figure#route {
+    float: right;
+    margin: 5px 0 5px 5px;
+    width: 280px;
+    }
+
+figure#route img {
+    width: 280px;
+    }
+
 figcaption {
+    border: 1px solid #ddd;
+    float: left;
     font-family: serif;
     font-size: 14px;
     font-style: italic;
@@ -269,7 +303,6 @@ aside {
 
 aside h5 {
     background-color: #63a033;
-    border-bottom: 2px solid #EC6B40;
     color: #eee;
     font-family: sans-serif;
     font-size: 20px;
@@ -287,7 +320,8 @@ aside ul {
 aside ul li {
     border-bottom: 1px dashed #aaa;
     float: left;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding: 5px 10px;
     }
 
@@ -301,7 +335,7 @@ aside ul.articles li a {
     }
 
 aside ul.articles {
-    list-style-image: url('../images/bullet-small-lime.jpg');
+    list-style-image: url('../images/leaf-icon.png');
     word-break: normal;
     }
 
@@ -327,11 +361,12 @@ aside ul.years li {
     background-color: #3C601F;
     color: white;
     float: left;
+    font-family: sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
     margin-top: 5px;
     margin-right: 5px;
-    padding: 5px 7px;
+    padding: 5px 6px;
     }
 
 aside ul.years li ul {
@@ -344,18 +379,14 @@ aside ul.years li ul li {
     }
 
 ul.years li:hover {
-//    background-color: #92EC4B;
-//    color: #333;
+    background-color: #92EC4B;
+    color: #333;
     cursor: pointer;
     }
 
-ul.years li.end {
-//    margin-right: 0;
-    }
-
 span.marker {
-    font-size: 24px;
-    margin-right: 10px;
+    font-size: 20px;
+    margin-right: 5px;
     }
 
 aside#sign-up {
@@ -397,7 +428,7 @@ div#search input#google {
     }
 
 aside#sign-up input#name {
-    width: 268px;
+    width: 263px;
     }
 
 aside#sign-up input#name[placeholder] {
@@ -407,7 +438,7 @@ aside#sign-up input#name[placeholder] {
 aside#sign-up input#email {
     background-color: #3C601F;
     color: white;
-    width: 290px;
+    width: 286px;
     }
 
 aside#sign-up input#email:hover {
@@ -425,9 +456,78 @@ aside#sign-up input#email:active {
 footer {
     background-color: #B95432;
     float: left;
-    height: 200px;
+    height: 180px;
     margin-bottom: 50px;
+    padding: 20px 0 20px 0;
     width: 920px;
+    }
+
+footer div#footer-wrapper {
+    float: none;
+    width: 580px;
+    }
+
+footer section {
+    background-color: #8eb7d7;
+    background-color: #392721;
+    border-radius: 50%;
+    float: left;
+    height: 180px;
+    margin-right: 20px;
+    text-align: center;
+    width: 180px;
+    }
+
+div.sphere {
+    background-color: white;
+    background-image: url('../images/bg-lighter-background.png');
+    background-repeat: no-repeat;
+    border: 1px solid #555;
+    border-radius: 50%;
+    box-shadow: inset 4px -3px 4px #333;
+    height: 30px;
+    margin: 15px auto 0;
+    width: 30px;
+    }
+
+footer section:hover {
+    background-color: #96C2E4;
+    cursor: pointer;
+    }
+
+footer section:hover h6 a,
+footer section:hover h6 a span {
+    color: #B95432;
+    color: #392721;
+    text-shadow: 1px 1px 1px #aaa;
+    }
+
+footer section:last-child {
+    margin-right: 0;
+    }
+
+footer section h6 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 20px;
+    }
+
+footer section h6 span {
+    color: #eee;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #000;
+    }
+
+footer section h6 a {
+    display: block;
+    color: #ddd;
+    color: #B95432;
+    color: #ddd;
+    text-decoration: none;
     }
 
 @font-face {

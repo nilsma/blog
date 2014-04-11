@@ -35,7 +35,7 @@ function altTwitter() {
  */
 function altGoogle() {
     var oldsrc = 'images/google_blue.png';
-    var newsrc = 'images/google.png';
+    var newsrc = 'images/google-red.png';
     $('#google').mouseenter(function() {
         $(this).attr('src', newsrc);
     }).mouseleave(function() {
