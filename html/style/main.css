@@ -210,7 +210,7 @@ article h4 span#author {
 div#oppose {
     background-color: darkred;
     box-shadow: 2px 3px 2px #888;
-    margin: 0 auto;
+    margin: 30px auto 20px;
     padding: 10px;
     text-align: center;
     width: 300px;
@@ -236,10 +236,17 @@ article p {
     margin: 0 0 15px 0;
     }
 
-figure#before-after p {
+figcaption {
+//    border: 1px solid #ddd;
+    font-family: serif;
     font-size: 14px;
+    font-style: italic;
     line-height: 18px;
-    margin: 0;
+    padding: 10px;
+    }
+
+figure#before-after {
+    margin-bottom: 20px;
     }
 
 figure#before-after img {
@@ -249,43 +256,50 @@ figure#before-after img {
     }
 
 figure#steyer {
-    float: left;
+    float: right;
+    margin: 5px 0 5px 5px;
+    width: 200px;
     }
 
 figure#steyer img {
-    float: left;
-    height: 180px;
+    width: 200px;
     }
 
-figure#route {
+div#quote {
+    background-color: #ddd;;
     float: right;
-    margin: 5px 0 5px 5px;
-    width: 280px;
+    width: 200px;
     }
 
-figure#route img {
-    width: 280px;
+div#quote h6 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 10px 10px 18px;
     }
 
-figcaption {
-    border: 1px solid #ddd;
-    float: left;
-    font-family: serif;
-    font-size: 14px;
+div#quote h6 span {
+    font-size: 12px;
     font-style: italic;
-    padding: 10px;
+    line-height: 10px;
     }
 
-img#pipeline {
-    float: left;
-    height: 240px;
-    margin-bottom: 5px;
+div#quote h6 span {
+    margin: 0 0 0 20px;
     }
 
-img#oil-fire {
-    float: right;
-    height: 240px;
-    margin-bottom: 5px;
+div#quote h6 span#q-title {
+    position: relative;
+    top: -8px;
+    }
+
+figure#pipe-dream {
+    margin-bottom: 10px;
+    width: 100%;
+    }
+
+video {
+    width: 100%;
     }
 
 img.separator {
@@ -321,8 +335,8 @@ aside ul li {
     border-bottom: 1px dashed #aaa;
     float: left;
     margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px 10px;
+    margin-bottom: 0;
+    padding: 10px 10px 0;
     }
 
 aside ul.articles li a {
@@ -482,9 +496,8 @@ div.sphere {
     background-color: white;
     background-image: url('../images/bg-lighter-background.png');
     background-repeat: no-repeat;
-    border: 1px solid #555;
+    border: 1px solid #333;
     border-radius: 50%;
-    box-shadow: inset 4px -3px 4px #333;
     height: 30px;
     margin: 15px auto 0;
     width: 30px;
@@ -493,6 +506,10 @@ div.sphere {
 footer section:hover {
     background-color: #96C2E4;
     cursor: pointer;
+    }
+
+footer section:hover > div.sphere {
+    border: 1px solid #96C2E4;
     }
 
 footer section:hover h6 a,
