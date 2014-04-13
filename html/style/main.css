@@ -51,7 +51,6 @@ div#heading-wrapper {
     float: left;
     margin-top: 30px;
     text-align: center;
-    width: 570px;
     width: 920px;
     }
 
@@ -143,18 +142,18 @@ nav ul li.selected {
 
 nav ul li:hover {
     background-color: #92EC4B;
-    color: #333;
+    color: #333333;
     cursor: pointer;
     }
 
 nav ul li:active {
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
     }
 
 div#search {
     background-color: #EC6B40;
-    color: #eee;
+    color: #eeeeee;
     float: right;
     height: 30px;
     padding: 10px 0;
@@ -168,7 +167,7 @@ div#search form {
     }
 
 main {
-    background-color: #fff;
+    background-color: #ffffff;
     float: left;
     width: 920px;
     }
@@ -217,14 +216,13 @@ div#oppose {
     }
 
 div#oppose:hover {
-    background-color: green;
     background-color: #63a033;
-    color: #ddd;
+    color: #dddddd;
     cursor: pointer;
     }
 
 div#oppose h6 a {
-    color: white;
+    color: #ffffff;
     font-family: sans-serif;
     font-size: 22px;
     font-weight: normal;
@@ -237,7 +235,6 @@ article p {
     }
 
 figcaption {
-//    border: 1px solid #ddd;
     font-family: serif;
     font-size: 14px;
     font-style: italic;
@@ -266,7 +263,7 @@ figure#steyer img {
     }
 
 div#quote {
-    background-color: #ddd;;
+    background-color: #dddddd;
     float: right;
     width: 200px;
     }
@@ -309,7 +306,7 @@ img.separator {
     }
 
 aside {
-    border-left: 1px dashed #eee;
+    border-left: 1px dashed #eeeeee;
     float: left;
     padding: 30px;
     width: 285px;
@@ -317,7 +314,7 @@ aside {
 
 aside h5 {
     background-color: #63a033;
-    color: #eee;
+    color: #eeeeee;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: normal;
@@ -332,7 +329,7 @@ aside ul {
     }
 
 aside ul li {
-    border-bottom: 1px dashed #aaa;
+    border-bottom: 1px dashed #aaaaaa;
     float: left;
     margin-top: 5px;
     margin-bottom: 0;
@@ -340,7 +337,7 @@ aside ul li {
     }
 
 aside ul.articles li a {
-    color: #333;
+    color: #333333;
     display: block;
     float: left;
     font-family: sans-serif;
@@ -359,7 +356,7 @@ aside ul.articles li {
 
 aside ul.articles li:hover {
     background-color: #92EC4B;
-    color: #333;
+    color: #333333;
     cursor: pointer;
     }
 
@@ -373,7 +370,7 @@ aside ul.years {
 
 aside ul.years li {
     background-color: #3C601F;
-    color: white;
+    color: #ffffff;
     float: left;
     font-family: sans-serif;
     font-size: 18px;
@@ -384,12 +381,12 @@ aside ul.years li {
     }
 
 aside ul.years li ul {
-    background-color: white;
+    background-color: #ffffff;
     }
 
 aside ul.years li ul li {
     display: none;
-    background-color: white;
+    background-color: #ffffff;
     }
 
 ul.years li:hover {
@@ -418,14 +415,14 @@ div#search input#search-btn {
 
 div#search input#search-btn {
     background-color: #3C601F;
-    color: #eee;
+    color: #eeeeee;
     cursor: pointer;
     width: 68px;
     }
 
 div#search input#search-btn:hover {
     background-color: #92EC4B;
-    color: #333;
+    color: #333333;
     }
 
 aside#sign-up input#name,
@@ -457,14 +454,13 @@ aside#sign-up input#email {
 
 aside#sign-up input#email:hover {
     background-color: #92EC4B;
-    color: #eee;
-    color: #333;
+    color: #333333;
     cursor: pointer;
     }
 
 aside#sign-up input#email:active {
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
     }
 
 footer {
@@ -482,7 +478,6 @@ footer div#footer-wrapper {
     }
 
 footer section {
-    background-color: #8eb7d7;
     background-color: #392721;
     border-radius: 50%;
     float: left;
@@ -493,10 +488,10 @@ footer section {
     }
 
 div.sphere {
-    background-color: white;
+    background-color: #ffffff;
     background-image: url('../images/bg-lighter-background.png');
     background-repeat: no-repeat;
-    border: 1px solid #333;
+    border: 1px solid #333333;
     border-radius: 50%;
     height: 30px;
     margin: 15px auto 0;
@@ -514,9 +509,8 @@ footer section:hover > div.sphere {
 
 footer section:hover h6 a,
 footer section:hover h6 a span {
-    color: #B95432;
     color: #392721;
-    text-shadow: 1px 1px 1px #aaa;
+    text-shadow: 1px 1px 1px #aaaaaa;
     }
 
 footer section:last-child {
@@ -531,19 +525,17 @@ footer section h6 {
     }
 
 footer section h6 span {
-    color: #eee;
+    color: #eeeeee;
     font-size: 23px;
     font-weight: bold;
     letter-spacing: 1px;
     text-decoration: underline;
-    text-shadow: 1px 1px 1px #000;
+    text-shadow: 1px 1px 1px #000000;
     }
 
 footer section h6 a {
     display: block;
-    color: #ddd;
-    color: #B95432;
-    color: #ddd;
+    color: #dddddd;
     text-decoration: none;
     }
 
