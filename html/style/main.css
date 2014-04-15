@@ -299,6 +299,15 @@ video {
     width: 100%;
     }
 
+ul#video-points {
+    list-style: square;
+    }
+
+ul#video-points li {
+    margin-left: 20px;
+    margin-bottom: 3px;
+    }
+
 img.separator {
     margin-top: 10px;
     margin-left: 47px;
