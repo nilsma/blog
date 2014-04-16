@@ -124,7 +124,7 @@ nav ul {
     width: 500px;
     }
 
-nav ul li {
+nav ul li a {
     background-color: #3C601F;
     color: white;
     float: left;
@@ -132,14 +132,15 @@ nav ul li {
     font-size: 15px;
     margin: 0 8px;
     padding: 5px 8px;
+    text-decoration: none;
     }
 
-nav ul li.selected {
+nav ul li.selected a {
     background-color: #63a033;
     color: #fff;
     }
 
-nav ul li:hover {
+nav ul li:hover a {
     background-color: #92EC4B;
     color: #333333;
     cursor: pointer;
@@ -300,6 +301,7 @@ video {
 
 ul#video-points {
     list-style: square;
+    margin-bottom: 15px;
     }
 
 ul#video-points li {
@@ -414,7 +416,7 @@ aside#sign-up {
 
 aside#sign-up input#name,
 aside#sign-up input#email,
-div#search input#google,
+div#search input#google-search,
 div#search input#search-btn {
     border: 0;
     font-size: 16px;
@@ -434,7 +436,7 @@ div#search input#search-btn:hover {
     }
 
 aside#sign-up input#name,
-div#search input#google {
+div#search input#google-search {
     border: 1px solid green;
     box-shadow: inset 1px 1px 1px #666;
     color: black;
@@ -442,7 +444,7 @@ div#search input#google {
     text-align: left;
     }
 
-div#search input#google {
+div#search input#google-search {
     width: 190px;
     }
 

@@ -5,41 +5,42 @@
     <link rel="stylesheet" href="style/main.css">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/main.js"></script>
+    <title>Leafism</title>
   </head>
   <body>
     <div id="main-wrapper" class="center">
       <header>
-	<img id="leaf-one" src="images/leaf2-spun.png">
-	<img id="leaf-two" src="images/leaf2-cut-sat.png">
-	<img id="leaf-three" src="images/leaf2-cut-sat-vertical.png">
+	<img id="leaf-one" src="images/leaf2-spun.png" alt="ornamental image of a leaf">
+	<img id="leaf-two" src="images/leaf2-cut-sat.png" alt="ornamental image of a leaf">
+	<img id="leaf-three" src="images/leaf2-cut-sat-vertical.png" alt="ornamental image of a leaf">
 	<div id="heading-wrapper">
-	  <h1><a href="#">Leaf<span>ism</span></a></h1>
-	  <h2><a href="#">Truths That Matter</a></h2>
-	</div> <!-- end #heading-wrapper -->
+	  <h1><a tabindex="1" href="#">Leaf<span>ism</span></a></h1>
+	  <h2>Truths That Matter</h2>
+	</div>
 	<div id="socials">
-	  <img id="facebook" src="images/facebook_blue.png" alt="facebook logo"/>
-          <img id="twitter" src="images/twitter_alt_blue.png" alt="twitter logo"/>
-          <img id="linkedin" src="images/linkedin_blue.png" alt="linkedin logo"/>
-          <img id="google" src="images/google_blue.png" alt="google plus logo"/>
-	</div> <!-- end #socials -->
+	  <a tabindex="2" href="#"><img id="facebook" src="images/facebook_blue.png" alt="facebook logo"/></a>
+	  <a tabindex="3" href="#"><img id="twitter" src="images/twitter_alt_blue.png" alt="twitter logo"/></a>
+          <a tabindex="4" href="#"><img id="linkedin" src="images/linkedin_blue.png" alt="linkedin logo"/></a>
+          <a tabindex="5" href="#"><img id="google" src="images/google_blue.png" alt="google plus logo"/></a>
+	</div>
 	<div class="clear"></div>
 	<div id="nav-wrapper">
 	  <nav>
 	    <ul>
-	      <li>Home</li>
-	      <li class="selected">Environment</li>
-	      <li>Lifestyle</li>
-	      <li>Contribute</li>
-	      <li>About</li>
+	      <li><a tabindex="6" href="#">Home</a></li>
+	      <li class="selected"><a tabindex="7" href="#">Environment</a></li>
+	      <li><a tabindex="8" href="#">Lifestyle</a></li>
+	      <li><a tabindex="9" href="#">Contribute</a></li>
+	      <li><a tabindex="10" href="#">About</a></li>
 	    </ul>
 	  </nav>
 	  <div id="search">
-	    <form name="search" action="" method="">
-	      <input id="google" type="text" placeholder="Search Google!">
+	    <form name="search" action="" method="POST">
+	      <input id="google-search" type="text" placeholder="Search Google!">
 	      <input id="search-btn" type="submit" value="Search">
 	    </form>
-	  </div> <!-- end #search -->
-	</div> <!-- end #nav-wrapper -->
+	  </div>
+	</div>
       </header>
       <div class="clear"></div>
       <main>
@@ -68,16 +69,15 @@
 	      <source src="images/pipelines.flv" type="video/flv"/>
 	      Your browser does not support the video tag.
 	    </video>
-	    <figcaption><a href="http://www.youtube.com/watch?v=3rxqUXqPzog&list=PLv0NAl8uuGwBaqE0crDVrHtsOTkqX1kUF">This YouTube video from Center for Biological Diversity</a> shows all pipeline incidents for the better part of the past 3 decades</figcaption>
+	    <figcaption>This video from Center for Biological Diversity shows all pipeline incidents for the better part of the past 3 decades</figcaption>
 	  </figure>
-	  <p>As the video clearly shows there has been a lot of pipeline-spils, and there are no reasons why we should not expect there to be more, and why we should not fight the pipeline at all costs. Here is a little list of a few of the problems since 1986:
+	  <p>As the video clearly shows there has been a lot of pipeline-spils, and there are no reasons why we should not expect there to be more, and why we should not fight the pipeline at all costs. Here is a little list of a few of the problems since 1986:</p>
 	    <ul id="video-points">
 	      <li>There has been 7978 incidents</li>
 	      <li>There has been 512 fatalities</li>
 	      <li>There has been 2360 injuries</li>
 	      <li>There has been almost $7,000,000,000 of property damage</li>
 	    </ul>
-	  </p>
 	  <div id="quote">
 	    <h6>"The heads of these companies don’t have to live with their mistakes." <br/><span id="q-name">Kate Comegys</span>,<br/><span id="q-title">Ex Wall Street employee</span></h6>
 	  </div>
@@ -98,15 +98,15 @@
 	    <li><a href="#">NASA Report On Possible Ways To Control The Climate On Mars</a></li>
 	  </ul>
 	</aside>
-	<img class="separator" src="images/line.jpg">
+	<img class="separator" src="images/line.jpg" alt="ornamental image of a horizontal line">
 	<aside id="sign-up">
 	  <h5>Get Leafism in Your Inbox!</h5>
-	  <form action="" method="">
+	  <form action="" method="POST">
 	    <input id="name" name="name" type="email"  placeholder="Your Email Here!"><br/>
 	    <input id="email" name="email" type="submit" value="Keep me informed!">
 	  </form>
 	</aside>
-	<img class="separator" src="images/line.jpg">
+	<img class="separator" src="images/line.jpg" alt="ornamental image of a horizontal line">
 	<aside id="archive">
 	  <h5>Leafism Archives</h5>
 	  <ul class="years">
@@ -190,8 +190,8 @@
 	    <div class="sphere"></div>
 	    <h6><a href="#">Visit Our <span>Affiliates!</span></a></h6>
 	  </section>
-	</div> <!-- end #footer-wrapper -->
+	</div>
       </footer>
-    </div> <!-- end #main-wrapper -->
+    </div>
   </body>
 </html>
